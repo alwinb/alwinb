@@ -1,6 +1,6 @@
 Hi! 👋 I am Alwin,
 
-Welcome to my GitHub page! This is a place where I collect some of my work and some research projects. 
+Welcome to my GitHub page! This is a place where I have collected some of my work and some research projects. 
 
 I often try to develop theory and application simultaneously.
 
@@ -8,11 +8,11 @@ A selection of projects, listed below.
 
 ### URL Specification
 
-I am working on a number of projects around the specification of URLs.
+I am working on a number of projects around the specification of URLs. This works aims to resolve the differences between the WHATWG standard and the IETF specifications. It adds support for relative URLs in a way that agrees with the WHATWG standard.
 
 - [URL Specification][url-spec] — An URL specification that generalises the WHATWG standard.
 - [spec-url] — An implementation of the URL specification above.
-- [reurl] — An URL manipulation library that supports relative URLs.
+- [reurl] — An URL manipulation library. This project incited the work above.
 
 [url-spec]: https://alwinb.github.io/url-specification/
 [spec-url]: https://github.com/alwinb/spec-url
@@ -22,39 +22,51 @@ I am working on a number of projects around the specification of URLs.
 
 I am working on some projects around the HTML language as well. The end goal is to create an accurate and concise characterisation of the HTML5 language as parsed, together with an implementation!
 
+- [html-parser] — An ongoing effort to define an ever simpler and more concise HTML parsing algorithm that agrees with the HTML5 standard. 
 - [html-lexer] — An html lexer that produces annotated chunks of raw input.
-- [tiny-html-lexer] — A very concise html lexer and tokeniser.
-- [html-parser] — A declarative tree construction algorithm for HTML5. **WIP**.
+- [tiny-html-lexer] — A minute html tokeniser based on the previous, but using regular expressions.
 
 [html-lexer]: https://github.com/alwinb/html-lexer
 [tiny-html-lexer]: https://github.com/alwinb/tiny-html-lexer
 [html-parser]: https://github.com/alwinb/html-parser
 
+### DOM Expressions
+
+- [Domex][domex] — Domex (short for DOM expressions) is an algebraic language for specifying web user interfaces. Domex works by pattern-matching on input (model or viewmodel) data, and allows for recursive patterns. One way to think of it is as "recursive format strings" that produce HTML.
+
+[domex]: https://github.com/alwinb/domex
+
+
+### Logic things
+
+- [Regex][ab-regex] — A regular expression compiler that computes deterministic state machines (DFAs) by implementing (and slightly extending) the theory of derivatives of regular expressions.
+- [Ess][ess] — Ess is a research type-language for describing proeprties of sem-structured data (such as JSON) and a theorem prover for that language.
+
+[ab-regex]: https://github.com/alwinb/ab-regex
+[ess]: https://github.com/alwinb/ess
+
+### Category Theory
+
+I wrote my Master's Thesis about the generalisation of Universal Algebra and Universal Coalgebra at the Institute for Logic, Language and Computation in Amsterdam; I've separated out the introductory notes on Category Theory and patched up some typos as well.
+
+* [Interaction, Observation and Denotation][thesis]
+* [Category Theory - Introductory Notes][cat_notes]
+
+[thesis]: https://raw.githubusercontent.com/alwinb/alwinb/main/thesis/interaction_observation_denotation.pdf
+[cat_notes]: https://raw.githubusercontent.com/alwinb/alwinb/main/thesis/category_theory_intro.pdf
+
 ### Graphics File Formats
 
 Some fun projects.
 
-- [Haikon-js] — A parser for HVIF vector icon files, in JS.
+- [Haikon-js] — A parser for HVIF vector icon files, in JS (and Zig).
 - [XoDB][xodb] — Some support for the reMarkable tablet database and –notebooks in JS. 
 
 [Haikon-js]: https://github.com/alwinb/haikon-js
 [xodb]: https://github.com/alwinb/xodb
 
-### Logic things
 
-- [Regex][ab-regex] — A close-to-theory regular expression compiler, using derivatives.
-- [Ess][ess] — A research-y datastructure for semi-structured–data types.
-
-[ab-regex]: https://github.com/alwinb/ab-regex
-[ess]: https://github.com/alwinb/ess
-
-### Web UI
-
-- [Domex][domex] — A research-y alternative for template languages, based on 'DOM algebra'.
-
-[domex]: https://github.com/alwinb/domex
-
-### Other
+### Other projects
 
 - [immutable-aatree] — A persistent ordered dictionary datastructure.
 - [tiny-css-parser] — A CSS parser with a small code-base.
