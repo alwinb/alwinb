@@ -11,10 +11,12 @@ A selection of projects, listed below.
 I am working on a number of projects around the specification of URLs. This works aims to resolve the differences between the WHATWG standard and the IETF specifications. It adds support for relative URLs in a way that agrees with the WHATWG standard.
 
 - [URL Specification][url-spec] — An URL specification that generalises the WHATWG standard.
-- [spec-url] — An implementation of the URL specification above.
-- [reurl] — An URL manipulation library. This project incited the work above.
+- [URLReference] — An URL class that adds support for relative URLs.
+- [spec-url] — A low level, core library that implements the URL specification above.
+- [reurl] — An alternative URL library with immutable URL objects.
 
 [url-spec]: https://alwinb.github.io/url-specification/
+[URLReference]: https://github.com/alwinb/url-reference
 [spec-url]: https://github.com/alwinb/spec-url
 [reurl]: https://github.com/alwinb/reurl
 
