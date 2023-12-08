@@ -40,7 +40,7 @@ I am working on some projects around the HTML language as well. The end goal is 
 ### Logic things
 
 - [Regex][ab-regex] — A regular expression compiler that computes deterministic state machines (DFAs) by implementing (and slightly extending) the theory of derivatives of regular expressions.
-- [Ess][ess] — Ess is a research type-language for describing proeprties of sem-structured data (such as JSON) and a theorem prover for that language.
+- [Ess][ess] — Ess is a research type-language for describing properties of sem-structured data (such as JSON) and a theorem prover for that language.
 
 [ab-regex]: https://github.com/alwinb/ab-regex
 [ess]: https://github.com/alwinb/ess
